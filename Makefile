@@ -16,3 +16,5 @@ eclipse.so: injected_lib.c
 
 clean:
 	rm -f eclipse-ui injector eclipse.so
+
+.PHONY: all clean
